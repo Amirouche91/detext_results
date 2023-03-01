@@ -1,0 +1,29 @@
+# Trainable variables
+  w_pretrained_embedding:0, (30522, 32), /device:CPU:0
+  lstm/bidirectional_rnn/fw/multi_rnn_cell/cell_0/lstm_cell/kernel:0, (48, 64), /device:CPU:0
+  lstm/bidirectional_rnn/fw/multi_rnn_cell/cell_0/lstm_cell/bias:0, (64,), /device:CPU:0
+  lstm/bidirectional_rnn/fw/multi_rnn_cell/cell_1/lstm_cell/kernel:0, (32, 64), /device:CPU:0
+  lstm/bidirectional_rnn/fw/multi_rnn_cell/cell_1/lstm_cell/bias:0, (64,), /device:CPU:0
+  lstm/bidirectional_rnn/fw/multi_rnn_cell/cell_2/lstm_cell/kernel:0, (32, 64), /device:CPU:0
+  lstm/bidirectional_rnn/fw/multi_rnn_cell/cell_2/lstm_cell/bias:0, (64,), /device:CPU:0
+  lstm/bidirectional_rnn/fw/multi_rnn_cell/cell_3/lstm_cell/kernel:0, (32, 64), /device:CPU:0
+  lstm/bidirectional_rnn/fw/multi_rnn_cell/cell_3/lstm_cell/bias:0, (64,), /device:CPU:0
+  lstm/bidirectional_rnn/fw/multi_rnn_cell/cell_4/lstm_cell/kernel:0, (32, 64), /device:CPU:0
+  lstm/bidirectional_rnn/fw/multi_rnn_cell/cell_4/lstm_cell/bias:0, (64,), /device:CPU:0
+  lstm/bidirectional_rnn/bw/multi_rnn_cell/cell_0/lstm_cell/kernel:0, (48, 64), /device:CPU:0
+  lstm/bidirectional_rnn/bw/multi_rnn_cell/cell_0/lstm_cell/bias:0, (64,), /device:CPU:0
+  lstm/bidirectional_rnn/bw/multi_rnn_cell/cell_1/lstm_cell/kernel:0, (32, 64), /device:CPU:0
+  lstm/bidirectional_rnn/bw/multi_rnn_cell/cell_1/lstm_cell/bias:0, (64,), /device:CPU:0
+  lstm/bidirectional_rnn/bw/multi_rnn_cell/cell_2/lstm_cell/kernel:0, (32, 64), /device:CPU:0
+  lstm/bidirectional_rnn/bw/multi_rnn_cell/cell_2/lstm_cell/bias:0, (64,), /device:CPU:0
+  lstm/bidirectional_rnn/bw/multi_rnn_cell/cell_3/lstm_cell/kernel:0, (32, 64), /device:CPU:0
+  lstm/bidirectional_rnn/bw/multi_rnn_cell/cell_3/lstm_cell/bias:0, (64,), /device:CPU:0
+  lstm/bidirectional_rnn/bw/multi_rnn_cell/cell_4/lstm_cell/kernel:0, (32, 64), /device:CPU:0
+  lstm/bidirectional_rnn/bw/multi_rnn_cell/cell_4/lstm_cell/bias:0, (64,), /device:CPU:0
+  hidden_projection_0/kernel:0, (812, 100), /device:CPU:0
+  hidden_projection_0/bias:0, (100,), /device:CPU:0
+  scoring/kernel:0, (100, 1), /device:CPU:0
+  scoring/bias:0, (1,), /device:CPU:0
+
+# Total trainable params: 1081273
+# Out of the total trainable params, the total lstm parameters: 23168
